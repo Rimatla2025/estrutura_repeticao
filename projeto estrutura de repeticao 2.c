@@ -1,13 +1,13 @@
-#include <stdio.h>
+
 #include <stdlib.h>
 int main()
 {
     int cont;
     float salario,media,soma,maior;
     maior=0; soma=0;
-    for (cont=1;cont<=10;cont++)
+    for (cont=1;cont<=15;cont++)
     {
-        printf ("Digite o salário do funcionário: \n");
+        printf ("Digite o salï¿½rio do funcionï¿½rio: \n");
         scanf("%f",&salario);
         soma=soma+salario;
         if (salario > maior)
@@ -16,7 +16,7 @@ int main()
         }
     }
     media=soma/10;
-    printf ("O maior salário da empresa e = %.2f \n",maior);
-    printf ("A média salarial da empresa e = %.2f \n",media);
+    printf ("O maior salï¿½rio da empresa e = %.2f \n",maior);
+    printf ("A mï¿½dia salarial da empresa e = %.2f \n",media);
     return 0;
 }
